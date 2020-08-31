@@ -1,0 +1,47 @@
+Given a valid (IPv4) IP address, return a defanged version of that IP address.
+A defanged IP address replaces every period "." with "[.]".
+
+Input Description:
+String IP as input.
+
+Output Description:
+Print defanged IP address
+
+Sample Input:
+1.1.1.1
+
+Sample Output:
+1[.]1[.]1[.]1
+
+Explanation:
+The '.' is replaced with '[.]'.
+
+Sample Input:
+255.3.45.01
+
+Sample Output:
+255[.]3[.]45[.]01
+
+Sample Input:
+845.47.26
+
+Sample Output:
+845[.]47[.]26
+
+Sample Input:
+963.25.14
+
+Sample Output:
+963[.]25[.]14
+
+Sample Input:
+12.33.56
+
+Sample Output:
+12[.]33[.]56
+
+Sample Input:
+987.147.25
+
+Sample Output:
+987[.]147[.]25
